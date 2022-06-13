@@ -22,7 +22,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Download hello world file
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v3
         with:
           name: hello-world
       - shell: bash
